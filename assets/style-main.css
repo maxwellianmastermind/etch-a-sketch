@@ -1,0 +1,95 @@
+html {
+	background: #033;
+	color: white;
+}
+
+body {
+	font-family: arial, sans-serif;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}
+
+.header {
+	height: 35px;
+	padding-right: 30;
+	padding: 10 10 10 10;
+	background-color: #044;
+}
+
+.options_bar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.options_bar li {
+	float: left;
+}
+
+.options_bar .on_da_right {
+	float: right;
+}
+
+.opt_btn, .dropdown_content, .opt_txt {
+	cursor:default;
+	color: #ddd;
+	background-color: #044;
+	display: inline-block;
+	padding: 6px;
+	margin-right: 10;
+	text-decoration: none;
+} 
+
+.opt_btn:hover {
+	text-decoration: underline;
+}
+
+.highlighted {
+	box-shadow: 0px 0px 10px 3px rgba(255,255,0,1)
+}
+
+.dropdown:hover .dropdown_content {
+	display: block;
+}
+
+.dropdown_content {
+	display: none;
+}
+
+.dropdown_content div {
+	margin: 2px;
+	padding: 3px;
+}
+
+#toggleind {
+	border-radius: 50%;
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	background-color: yellow;
+	border: 1px solid red;
+}
+
+.the_center {
+	flex: 1;
+	margin: auto;
+	display: block;
+	clear: both;
+	text-align: center;
+}
+
+#logo {
+	padding-top: 20px;
+	width: 50%;
+}
+
+#da_sketchboard {
+	display: inline-block;
+}
+
+.etchxel {
+	display: inline-block;
+	background-color: green;
+}

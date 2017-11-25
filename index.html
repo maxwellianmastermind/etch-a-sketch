@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="assets/script-main.js"></script>
+  <link rel="stylesheet" href="assets/style-main.css">
+  </head>
+  <body>
+    <div class="header">
+      <ul class="options_bar">
+        <li>
+        	<div class="opt_btn" id="reset">Reset da Sketch</div>
+        </li>
+        <li>
+        	<div class="dropdown">
+        	  <div class="opt_btn">Which Pen?</div>
+        	  <div class="dropdown_content" id="pens">
+        	    <div class="drop_opt">Constant</div>
+        	    <div class="drop_opt">Rainbow</div>
+        	    <div class="drop_opt">Gradient</div>
+        	  </div>
+        	</div>
+       	</li>
+       	<li>
+       		<div class="opt_btn" id="btoggle">Toggle Borders</div>
+       	</li>
+       	<li>
+       		<input type="text" value="hi" style="display:none">
+       	</li>
+       	<li class="on_da_right">
+       		<div id="toggleind"></div>
+       		<div class="opt_txt">Press 'T' to toggle Cursor Sketching!</div>
+       	</li>
+      </ul>
+    </div>
+    <div class="the_center">
+    <img id="logo" src="assets/images/etch_n_sketch.png" alt="etch_n_sketch">
+    <br> <!-- Instead of that hideous whitespace paragraph... yeesh -->
+    <div id="da_sketchboard" width="540px" height="540px">
+      <table cellspacing="0" cellpadding="0">
+        <tr>
+        <td>
+        <div class="etchxel" style="width: 27px; height: 27px;"></div>
+        </td>
+        <td>
+        <div class="etchxel" style="width: 27px; height: 27px;"></div>
+        </td>
+        <td>
+        <div class="etchxel" style="width: 27px; height: 27px;"></div>
+        </td>
+        <td>
+        <div class="etchxel" style="width: 27px; height: 27px;"></div>
+        </td>
+        </tr>
+        <tr>
+        <td>
+        <div class="etchxel" style="width: 27px; height: 27px;"></div>
+        </td>
+        <td>
+        <div class="etchxel" style="width: 27px; height: 27px;"></div>
+        </td>
+        <td>
+        <div class="etchxel" style="width: 27px; height: 27px;"></div>
+        </td>
+        <td>
+        <div class="etchxel" style="width: 27px; height: 27px;"></div>
+        </td>
+        </tr>
+        <tr>
+        <td>
+        <div class="etchxel" style="width: 27px; height: 27px;"></div>
+        </td>
+        <td>
+        <div class="etchxel" style="width: 27px; height: 27px;"></div>
+        </td>
+        <td>
+        <div class="etchxel" style="width: 27px; height: 27px;"></div>
+        </td>
+        <td>
+        <div class="etchxel" style="width: 27px; height: 27px;"></div>
+        </td>
+        </tr>
+        <tr>
+        <td>
+        <div class="etchxel" style="width: 27px; height: 27px;"></div>
+        </td>
+        <td>
+        <div class="etchxel" style="width: 27px; height: 27px;"></div>
+        </td>
+        <td>
+        <div class="etchxel" style="width: 27px; height: 27px;"></div>
+        </td>
+        <td>
+        <div class="etchxel" style="width: 27px; height: 27px;"></div>
+        </td>
+        </tr>
+      </table>
+    </div>
+    <br> <!-- Again with the simple break! -->
+    </div>
+  </body>
+</html>
